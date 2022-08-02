@@ -1,0 +1,63 @@
+.addbook{
+    background-color: aquamarine;
+    padding:30px;
+}
+.addbook h2{
+    text-decoration: 5px solid teal underline;
+}
+.addlisting_form{
+    margin-top:20px;
+}
+.addlisting_form form{
+    display: flex;
+    flex-direction: column;
+}
+.addlisting_form form input[type="text"], input[type="number"], input[type="submit"],label  {
+    margin-top: 10px;
+    width:100%;
+    border-style: none;
+}
+.addlisting_form form input[type="text"],
+input[type="number"]
+ {
+     height:40px;
+ }
+.addlisting_form #des{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    border-style: none;
+}
+.addlisting_form input[type="submit"]{
+    background-color: teal;
+    border-style: none;
+    padding:20px;
+}
+.addlisting_form input[type="submit"]:hover {
+    background-color: aquamarine;
+    border: 4px solid teal;
+}
+
+/* Media screen for Tab */
+@media screen and (min-width: 700px) {
+    .addbook {
+        padding: 30px;
+        margin:100px;
+    }
+}
+
+/* Media screen for mini-desktop */
+@media screen and (min-width: 900px) {
+    .addbook {
+            padding: 30px;
+            margin-left:150px;
+            margin-right: 150px;
+        }
+}
+/* Media screen for desktop */
+@media screen and (min-width: 1200px) {
+    .addbook {
+        margin-left: 250px;
+        margin-right: 250px;   
+    }
+}

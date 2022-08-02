@@ -1,0 +1,23 @@
+.quotebox{
+    padding:70px;
+    background-color: darkcyan;
+}
+.quotebox .author{
+    margin-top:15px;
+}
+.quotebox h1{
+    margin-top: 15px;
+}
+.quotebox h2{
+    text-decoration: underline solid darkgray;
+}
+
+.buttonnewquote{
+    padding:15px 20px;
+    background-color: darkcyan;
+    color: black;
+}
+.buttonnewquote:hover{
+    background-color: white;
+    color: black;
+}

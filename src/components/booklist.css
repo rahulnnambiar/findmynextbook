@@ -1,0 +1,67 @@
+.BookList h3{
+    text-align: center;
+    margin-top:30px;
+    
+}
+.BookList .books{
+    display: flex;
+    margin-top:15px;
+    border:1px solid black;
+    margin:25px;
+}
+.BookList .sub-books{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.BookList img{
+    height: 100px;
+    width: 100px;
+}
+.sub-books h4{
+    font-size: 20px ;
+}
+.sub-books .author{
+    color:slategray;
+    font-size: 15px;
+}
+.sub-books .genre{
+    background-color: lightgrey;
+    border: 1px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    width: 80px;
+}
+/* Media screen for Tab */
+@media screen and (min-width: 700px) {
+    .BookList .books {
+        margin-left:100px;
+        margin-right: 100px;
+    }
+
+
+}
+/* Media screen for mini-desktop */
+@media screen and (min-width: 900px) {
+    .BookList .books {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .BookList img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* Media screen for desktop */
+@media screen and (min-width: 1200px) {
+    .BookList .books {
+         margin-left: 200px;
+         margin-right: 200px;
+    }
+    .BookList img {
+        height: 200px;
+        width: 200px;
+    }
+}
